@@ -1,0 +1,1 @@
+The goal of this project is to replicated the google homepage using HTML/CSS. After completeing this project, I should have a better understanding of how to lay out a website and how to use devtools.

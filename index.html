@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <header>
-        <ul id="navbar">
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>GRID</li>
-            <li>ACCOUNT</li>
-        </ul>
-    </header>
-    <body>
-        <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <input id="searchbar" type="text">
-        <button id="googlesearch">Google Search</button>
-        <button id="googlesearch">I'm Feeling Lucky</button>
-    </body>
-    <footer>
-        <ul id="footbar">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search works</li>
-            <li>Privacy</li>
-            <li>Term</li>
-            <li>Settings</li>
-        </ul>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <nav>
+        <div class="header">
+            <ul>
+                <div class="headerleft">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </div>
+                <div class="headerright">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><img src="images/grid.png" id="grid"></a></li>
+                    <li><a href="https://github.com/scott-hall7"><img src="images/logo.png" id="toplogo"></a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="center">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google logo">
+        <div class="main">
+            <div class="search">
+                <img src="images/search.png" id="searchleft">
+                <input type="text" id="searchbar">
+                <a href="#"><img src="images/mic.png" id="searchright"></a>
+            </div>
+            <div class="buttons">
+                <button type="submit"><a href="#">Google Search</a></button>
+                <button type="submit"><a href="#">I'm Feeling Lucky</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <nav>
+        <div class="footer">
+            <ul>
+                <div class="footerleft">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </div>
+                <div class="footerright">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</footer>
 </html>
 
 
